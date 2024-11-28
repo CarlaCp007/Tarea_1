@@ -3,7 +3,7 @@
 def descuento(): #se apertura función a utilizar
     while True: #sentencia repetitiva que nos permitirá repetir el programa hasta que las condiciones se cumplan
         descuento=float
-        valor=float(input("Ingrese el valor de su compra.")) #se imprime en pantalla instrucciones para el usuario
+        valor=float(input("Ingrese el valor de su compra: ")) #se imprime en pantalla instrucciones para el usuario
         if(valor>100):
             descuento=(valor*0.20)
             final=(valor-descuento)
@@ -13,5 +13,6 @@ def descuento(): #se apertura función a utilizar
         otronum = input("¿Desea ingresar otro valor? (S/N): ").upper() #función que permite al usuario decidir si quiere seguir ejecutando el programa
         if otronum != 'S':
             break 
+    print("Gracias por visitar nuestra tienda. \n¡Hasta pronto!")
 
 descuento()
