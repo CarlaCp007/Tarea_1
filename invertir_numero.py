@@ -1,8 +1,14 @@
-#Solicita un número entero y calcula la suma de sus dígitos.
+#Solicita un número entero y muestra su versión invertida.
 
-
-num= int(input("Introduce un número entero: "))# Solicitar un número entero al usuario
-
-suma= sum(int(digito) for digito in str(abs(num)))# Convertir el número en una cadena para iterar sobre sus dígitos
-
-print(f"La suma de los dígitos de {num} es: {suma}.") 
+try:
+    numero = int(input("Ingrese un número entero: "))
+    
+    # Convertir el número a cadena, invertirlo y preservar el signo
+    if numero < 0:
+        numero_invertido = int("-" + str(abs(numero))[::-1])
+    else:
+        numero_invertido = int(str(numero)[::-1])
+    
+    print(f"El número invertido es: {numero_invertido}")
+except ValueError:
+    print("Por favor, ingrese un número entero válido.")
