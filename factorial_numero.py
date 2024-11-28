@@ -13,4 +13,4 @@ def factorial():
         if otronum != 'S':
            break 
 
-factorial()
+factorial() #
