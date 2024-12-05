@@ -7,9 +7,9 @@ def bisiesto():
         resto1=num%400
         resto2=num%100
         resto3=num%4
-        if (resto1 == 0): #función para verificar si el número es mayor a 10
+        if (resto1 == 0): 
             print (f"El año {num} es bisiesto.")
-        elif (resto3 == 0) and (resto2!= 0): #función para verificar si el número es mayor a 10
+        elif (resto3 == 0) and (resto2!= 0): 
             print (f"El año {num} es bisiesto.")
         else:
             print (f"El año {num} no es bisiesto.")

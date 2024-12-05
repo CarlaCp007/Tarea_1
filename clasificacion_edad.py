@@ -6,9 +6,9 @@ def edad(): #se apertura función a utilizar
 
         num1= int(input ("Ingrese su edad: ")) #se imprime en pantalla instrucciones para el usuario
         print ("Lo clasificaremos por su edad.") #se imprime en pantalla instrucciones para el usuario
-        if (num1 <= 12): #función para verificar si el número es mayor a 10
+        if (num1 <= 12): #función para verificar si el número es mayor o igual a 12
             print (f"Eres un niño.")
-        elif (num1>=13) and (num1<=17):#función para verificar si el número es igual a 10
+        elif (num1>=13) and (num1<=17):#función para verificar si el número está en el segundo rango
             print (f"Eres un adolescente.")
         else:
             print (f"Eres un adulto.")

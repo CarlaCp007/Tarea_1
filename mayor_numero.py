@@ -8,11 +8,11 @@ def mayor(): #se apertura función a utilizar
         num1= int(input("Ingrese el primer número: \n" ) )#imprime en pantalla la solicitud al usuario y le permite ingresar el número, el mismo que es declarado como una variable entera
         num2= int(input("Ingrese el primer número: \n" ) )#imprime en pantalla la solicitud al usuario y le permite ingresar el número, el mismo que es declarado como una variable entera
         num3= int(input("Ingrese el primer número: \n" ) )#imprime en pantalla la solicitud al usuario y le permite ingresar el número, el mismo que es declarado como una variable entera
-        if (num1 > num2) and (num1>num3): #función para verificar si el número es mayor a 10
+        if (num1 > num2) and (num1>num3): #función para verificar si el número 1 es mayor 
             print (f"El número {num1} es el mayor.")
-        elif (num2>num1) and (num2>num3):#función para verificar si el número es igual a 10
+        elif (num2>num1) and (num2>num3):#función para verificar si el número 3 es mayor
             print (f"El número {num2} es el mayor")
-        elif (num3>num1) and (num3>num2):#función para verificar si el número es igual a 10
+        elif (num3>num1) and (num3>num2):#función para verificar si el número 3 es mayor
             print (f"El número {num3} es el mayor")
         else: #en el caso de ser negativas las dos sentencias anteriores se descarta como menor
             print (f"Uno de los números se ha repetido, inicie de nuevo el proceso.")

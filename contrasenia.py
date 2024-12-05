@@ -6,7 +6,7 @@ def contrasenia(): #se apertura función a utilizar
 
         contra=12345
         num= int(input("Ingrese la contraseña: \n" ) )#imprime en pantalla la solicitud al usuario y le permite ingresar el número, el mismo que es declarado como una variable entera
-        if (num == contra): #función para verificar si el número es mayor a 10
+        if (num == contra): #función para verificar si el número coincide
             print (f"Acceso concedido.") #imprime en pantalla el mensaje al usuario
         else: #en el caso de ser negativas las dos sentencias anteriores se descarta como menor
             print (f"Acceso denegado.") #imprime en pantalla el mensaje al usuario
